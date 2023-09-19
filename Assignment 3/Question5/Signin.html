@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In From</title>
+    <style>
+        .sign-in-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 120px auto;
+            width: fit-content;
+            font-size: 20px;
+            border: 1px solid black;
+            padding: 0 30px 30px 30px;
+        }
+        .forget-btn {
+            margin: 0 40px;
+            width: fit-content;
+            background-color: #fff;
+            border: none;
+        }
+        .sign-in-btn, .sign-up-btn {
+            width: 120px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <form action="">
+
+        <div class="sign-in-form">
+            
+            <h1>Login</h1>
+            
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Your Email Address" required minlength="3" type="email">
+            </div>
+            
+            <div class="password">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Your Password" required minlength="8" type="password">
+            </div>
+            
+            <button class="forget-btn">Forget Your Password?</button>
+            
+            <div class="btn">
+                <button class="sign-up-btn">Sign Up</button>
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        
+        </div>
+
+    </form>
+</body>
+</html>

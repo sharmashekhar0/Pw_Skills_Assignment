@@ -1,0 +1,7 @@
+
+Question 5. What is the DOCTYPE Declaration in HTML?
+
+Answer. DOCTYPE Declaration is used to specify that the document is of HTML5 type. If DOCTYPE is missing in HTML document then the browser may assume that the document is of older HTML version.
+
+Syntax of DOCTYPE:-
+    <!DOCTYPE html>

@@ -1,0 +1,24 @@
+
+Question. List out the features of HTML5
+
+Answer. HTML5 refers to a set of modern web Technologies. This includes the HTML Living Standard, along with Javascript APIs to enhance storage, multimedia, and hardware access.  HTML5 described as a new version of HTML. HTML5 was the successor to previous HTML versions and introduced new elements and capabilities to the language on top of the previous version, HTML 4.01, as well as improving or removing some existing functionality.
+
+Features of HTML5:- 
+
+1. Semantic elements
+HTML5 introduced semantic elements like <header>, <nav>, <article>, <section>, <aside>, and <footer> to provide more meaningful structure to web documents. These elements help search engines and assistive technologies better understand the content.
+
+2. Multimedia Support:
+<audio> and <video> elements allow embedding audio and video content directly into web pages without replying on third party plugins.
+
+3. Canvas:
+The <canvas> element enables the creation of dynamic graphics, animations, and interactive visualizations directly within the browser using JavaScript.
+
+4. Scalable Vector Graphics (SVG):
+HTML5 added support for SVG, a vector graphics format, making it easier to create and manipulate scalable graphics and icons.
+
+5. Form Enhancements:
+HTML5 introduced new input types like <input type="date">, <input type="email">, and <input type="number">, as well as attributes such as placeholder and required to improve form validation and user experience.
+
+6. Security Enhancements:
+HTML5 includes security features like the sandbox attribute for iframes, which restricts their access to the parent document's resources, and Content Security Policy (CSP) for mitigating cross-site scripting (XSS) attacks.

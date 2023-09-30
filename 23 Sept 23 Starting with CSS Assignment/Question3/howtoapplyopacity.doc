@@ -1,0 +1,15 @@
+
+Question. How to apply opacity to one of the form sections.
+
+Answer:
+Step1: Select the form section using form CSS selector.
+
+Step2: Simply type opacity and give some value inbetween 0 - 1 including both values.
+
+Step3: Now the defined opacity will be applied on the selected html element.
+
+Example:-
+
+button {
+    opacity: .9;
+}

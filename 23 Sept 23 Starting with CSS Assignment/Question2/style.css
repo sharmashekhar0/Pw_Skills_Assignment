@@ -1,0 +1,33 @@
+.container--margin-10px {
+    margin: 10px;
+}
+
+.container__heading--align-center {
+    text-align: center;
+}
+
+.container__para1--color-red {
+    color: red;
+}
+
+.container__para1--fontsize-20px {
+    font-size: 20px;
+}
+
+.container__para2--color-brown {
+    color: brown;
+}
+
+.container__para2--fontsize-18px {
+    font-size: 18px;
+}
+
+.container__para3--color-blue {
+    color: blue;
+}
+
+.container__para3--fontsize-25px {
+    font-size: 25px;
+}
+
+

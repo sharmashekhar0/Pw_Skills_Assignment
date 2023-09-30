@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px 20px;
+}
+
+.external-css {
+    font-size: 20px;
+    color: brown;
+}
+
+.all-three-css {
+    font-size: 30px;
+    color: red;
+}

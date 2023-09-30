@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+body * {
+    margin: 10px 20px;
+}
+
+h1 {
+    margin: 10px auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    height: auto;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+p {
+    display: inline-block;
+    width: 90%;
+    margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}

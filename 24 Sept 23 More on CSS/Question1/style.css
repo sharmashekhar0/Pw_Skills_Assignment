@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to left top, lightblue, lightyellow, lightblue);
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px 5px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 5px rgba(1, 1, 65, 0.192);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: rgb(5, 5, 139);
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+}
+
+h1 {
+    color: brown;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 20vh;
+    margin-left: 3vw;
+}
+
+span {
+    display: block;
+}

@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f4f2fd;
+	color: #202842;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+	gap: 32px;
+	display: flex;
+}
+
+.container div {
+	width: 262px;
+	height: 363px;
+	background-color: white;
+	box-shadow: 0 0 10px 5px #00000025;
+	padding: 32px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+#basic-plan {
+	background-color: #202842;
+	color: #f4f2fd;
+}
+
+#basic-plan button {
+	background-color: #fff;
+	color: #202842;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	margin: 4px 0;
+}
+
+button {
+	width: 156px;
+	height: 38px;
+	border-radius: 50px;
+	background-color: #202842;
+	color: white;
+	border: none;
+}
+
+.heading {
+	font-size: 32px;
+	line-height: 32px;
+	padding: 4px 0;
+}
+
+.user-type {
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.price {
+	font-weight: 400;
+	font-size: 36px;
+	padding: 8px 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.sub-btn {
+	font-size: 16px;
+	line-height: 22px;
+	align-self: center;
+	margin-top: 40px;
+	padding: 8px;
+}
+
+.fa-circle-check {
+	height: 22px;
+	width: 22px;
+	font-size: 22px;
+	margin-right: 6px;
+}
+
+@media (max-width: 450px) {
+	body {
+		height: fit-content;
+		padding: 50px;
+	}
+	.container {
+		flex-direction: column;
+	}
+}

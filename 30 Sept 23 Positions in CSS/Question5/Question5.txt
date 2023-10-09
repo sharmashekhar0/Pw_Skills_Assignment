@@ -1,0 +1,5 @@
+
+Question: Explain the z-index, with a code example.
+
+Answer.
+The "z-index" is a CSS property that controls the stacking order of elements in a web page. It determines which element appears in front of or behind other elements on the z-axis, which is the axis perpendicular to the screen. Elements with higher z-index values will appear in front of elements with lower or no z-index values.

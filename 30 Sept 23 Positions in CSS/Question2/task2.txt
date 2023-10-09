@@ -1,0 +1,29 @@
+
+Question: Explain the difference between Absolute and Relative positioning.
+
+Answer: 
+Relative Positioning:
+
+	When you apply relative positioning to an element using the position: relative; CSS property, it retains its position within the normal document flow. In other words, nearby elements are not affected by its positioning.
+
+	You can then use the top, right, bottom, and left properties to move the element relative to its original position. These properties allow you to shift the element from its default position without affecting the layout of surrounding elements.
+	Relative positioning is often used when you want to make minor adjustments to an element's position without disrupting the flow of the document.
+	Example CSS:
+		.relative-box {
+			position: relative;
+			top: 20px;
+			left: 10px;
+		}
+
+Absolute Positioning:
+
+	When you apply absolute positioning to an element using the position: absolute; CSS property, the element is positioned relative to its nearest positioned ancestor. An ancestor is considered "positioned" if it has a position property set to relative, absolute, fixed, or sticky. If no such ancestor exists, the element is positioned relative to the initial containing block, which is typically the viewport.
+	
+	Absolute positioning takes the element out of the normal document flow, so it doesn't affect the layout of other elements. It essentially overlays the element on top of other content, potentially causing overlapping if not managed carefully.
+	You can use the top, right, bottom, and left properties to precisely control the position of the element relative to its nearest positioned ancestor or the viewport.
+	Example CSS:
+		.absolute-box {
+			position: absolute;
+			top: 50px;
+			left: 20px;
+		}

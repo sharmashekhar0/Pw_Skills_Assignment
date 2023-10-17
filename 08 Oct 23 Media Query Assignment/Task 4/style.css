@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: fit-content;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.box {
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	border: none;
+	padding: 10px;
+	color: white;
+}
+
+.box1 {
+	background-color: red;
+}
+
+.box2 {
+	background-color: blue;
+}
+
+.box3 {
+	background-color: brown;
+}
+
+.box4 {
+	background-color: orange;
+}
+
+@media (max-width: 800px) {
+	.container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+	}
+}

@@ -1,0 +1,5 @@
+
+Explain the use of grid-auto-row and grid-auto-column using code examples.
+
+Answer: Grid-auto-row and Grid-auto-column are properties used in CSS Grid Layout to control the sizing and placement of grid items that are created automatically, without being explicitly placed in the grid container. These properties allow you to define the size of implicit grid tracks (rows and columns) and how they behave when auto-placing items.
+

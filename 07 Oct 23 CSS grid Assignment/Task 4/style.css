@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.box {
+	height: 100px;
+	width: 200px;
+	border-radius: 8px;
+	padding: 20px;
+	font-size: 50px;
+}
+
+.box:nth-child(odd) {
+	color: white;
+	background-color: rgb(59, 59, 59);
+}
+
+.box:nth-child(even) {
+	background-color: rgb(193, 193, 193);
+}
+
+.box1 {
+	order: 1;
+}
+
+.box2 {
+	order: 2;
+}
+
+.box3 {
+	order: -2;
+}
+
+.box4 {
+	order: -1;
+}
+

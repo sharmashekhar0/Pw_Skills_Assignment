@@ -1,0 +1,39 @@
+a {
+	color: red;
+}
+
+nav > :first-child {
+	color: white;
+	background-color: brown;
+}
+
+nav > :nth-child(3) {
+	color: red;
+}
+
+a[href] {
+	color: red;
+	text-decoration: none;
+}
+
+a[class="active"] {
+	color: black;
+	text-decoration: underline;
+}
+
+a[target="_self"] {
+	background-color: lightblue;
+}
+
+nav > :last-child::after {
+	content: "...";
+}
+
+li::marker {
+	color: blue;
+}
+
+nav > :nth-child(4)::first-letter {
+	color: red;
+	font-size: 30px;
+}

@@ -1,0 +1,31 @@
+Question: Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+Answer: JavaScript operators can be categorized based on their functionality into the following categories:
+
+1. Increment and decrement operators: These operators are used to increment or decrement a variable’s value by one and can be used as a prefix or postfix operator.
+Example: i++, ++i, i--, --i
+
+2. Unary operators: These operators are used with only one operand and include the delete, void, typeof, +, -, ~, and ! operators.
+Example: delete typeof obj, +num, -num, ~num, !bool
+
+3. Arithmetic operators: These operators are used to perform arithmetic operations on numerical values and include the +, -, *, /, %, and ** operators.
+Example: 2 + 3, 5 - 2, 3 * 4, 10 / 2, 10 % 3, 2 ** 3
+
+4. Relational operators: These operators are used to compare two values and return a boolean value based on whether the comparison is true. Examples include <, >, <=, >=, and instanceof.
+Example: 2 < 3, 5 > 2, 3 <= 4, 10 >= 2
+
+5. Equality operators: These operators are used to compare two values for equality and include the ==, !=, ===, and !== operators.
+Example: 2 == 3, 5 != 2, 3 === 4, 10 !== 2
+
+6. Bitwise shift operators: These operators are used to shift the bits of a number left or right and include the <<, >>, and >>> operators.
+Example: num << 1, num >> 1, num >>> 1
+
+7. Bitwise logical operators: These operators are used to perform bitwise logical operations on the bits of a number and include the &, |, and ^ operators.
+Example: num & 1, num | 1, num ^ 1
+
+8. Conditional (ternary) operator: This operator is used to assign a value to a variable based on a condition and has the form condition ? value1 : value2.
+Example: x = (a > b) ? a : b
+
+9. Assignment operators: These operators are used to assign a value to a variable and include the =, +=, -=, *=, /=, %= and **= operators.
+Example: x = 5, x += 2, x -= 2, x *= 2, x /= 2, x %= 2, x **= 2

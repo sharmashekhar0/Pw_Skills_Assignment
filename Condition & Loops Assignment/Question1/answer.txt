@@ -1,0 +1,78 @@
+Question: What are conditional statements? Explain conditional statements with syntax and examples.
+
+Answer:
+Conditional statements in programming are constructs that allow the execution of different code blocks based on whether a specified condition evaluates to true or false. These statements enable developers to create decision-making structures in their code, allowing it to adapt and respond to different scenarios. The most common types of conditional statements are if, else if, and else.
+
+Explanation of these statements along with their syntax and examples:
+
+1. if Statement:
+The if statement is used to execute a block of code if a specified condition is true.
+Syntax:
+if (condition) {
+    // Code to be executed if the condition is true
+}
+
+Example:
+let age = 20;
+
+if (age >= 18) {
+    console.log('You are eligible to vote.');
+}
+
+2. if-else Statement:
+The if-else statement allows you to execute one block of code if the condition is true and another block if the condition is false.
+
+Syntax:
+if (condition) {
+    // Code to be executed if the condition is true
+} else {
+    // Code to be executed if the condition is false
+}
+
+Example:
+let temperature = 25;
+
+if (temperature > 30) {
+    console.log('It\'s hot outside.');
+} else {
+    console.log('The weather is moderate.');
+}
+
+3. if-else if-else Statement:
+The if-else if-else statement allows you to check multiple conditions and execute different code blocks based on the first true condition encountered.
+
+Syntax:
+if (condition1) {
+    // Code to be executed if condition1 is true
+} else if (condition2) {
+    // Code to be executed if condition2 is true
+} else {
+    // Code to be executed if none of the conditions is true
+}
+
+Example:
+let time = 14;
+
+if (time < 12) {
+    console.log('Good morning!');
+} else if (time < 18) {
+    console.log('Good afternoon!');
+} else {
+    console.log('Good evening!');
+}
+
+4. Nested if Statements:
+You can nest if statements inside each other to create more complex decision structures.
+
+Example:
+let num = 15;
+
+if (num > 0) {
+    if (num % 2 === 0) {
+        console.log('The number is positive and even.');
+    } else {
+        console.log('The number is positive and odd.');
+    }
+} else {
+    console.log('The number is not positive.');
+}

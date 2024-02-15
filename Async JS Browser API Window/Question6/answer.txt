@@ -1,0 +1,36 @@
+Questio : Describe the purpose and usage of the localStorage and sessionStorage APIs in web development. Give
+suitable examples for each.
+
+Answer. 
+The localStorage and sessionStorage APIs in web development provide mechanisms for storing key-value pairs locally within the browser. They are useful for persisting data across page reloads or browser sessions without the need for server-side storage or cookies.
+
+
+The localStorage and sessionStorage APIs in web development provide mechanisms for storing key-value pairs locally within the browser. They are useful for persisting data across page reloads or browser sessions without the need for server-side storage or cookies.
+
+- localStorage:
+
+Purpose: localStorage is designed for persistent storage of data that should persist even after the browser is closed and reopened. Data stored in localStorage remains available until explicitly cleared by the user or the web application.
+
+Usage: To store data in localStorage, you use the setItem() method, passing in a key-value pair. To retrieve data, you use the getItem() method, specifying the key.
+
+Example:- 
+// Storing data in localStorage
+localStorage.setItem('username', 'John');
+
+// Retrieving data from localStorage
+var username = localStorage.getItem('username');
+console.log(username); // Output: John
+
+- sessionStorage:
+
+Purpose: sessionStorage is similar to localStorage but is designed for storing data that should only persist for the duration of the browser session. Data stored in sessionStorage is cleared when the browser session ends, such as when the browser window/tab is closed.
+
+Usage: The usage of sessionStorage is similar to localStorage. You use the setItem() and getItem() methods to store and retrieve data, respectively.
+
+Example:-
+// Storing data in sessionStorage
+sessionStorage.setItem('theme', 'dark');
+
+// Retrieving data from sessionStorage
+var theme = sessionStorage.getItem('theme');
+console.log(theme); // Output: dark

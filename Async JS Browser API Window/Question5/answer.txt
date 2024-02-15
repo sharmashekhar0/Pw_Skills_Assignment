@@ -1,0 +1,25 @@
+Question : List and briefly explain some common Browser APIs available to JavaScript developers.
+
+Answer.
+
+- DOM (Document Object Model):
+The DOM API provides a structured representation of HTML documents and allows JavaScript to interact with and manipulate the content, structure, and style of web pages dynamically.
+
+- XHR (XMLHttpRequest):
+The XHR API enables asynchronous communication between web browsers and servers, allowing JavaScript to make HTTP requests and receive responses without reloading the entire page. It forms the foundation of AJAX (Asynchronous JavaScript and XML) for building dynamic web applications.
+
+- Fetch API:
+The Fetch API provides a modern alternative to XHR for making HTTP requests. It offers a more flexible and powerful interface for fetching resources from servers, supporting promises and allowing for easier handling of requests and responses.
+
+- Web Storage (localStorage and sessionStorage):
+Web Storage APIs allow JavaScript to store key-value pairs locally within the browser, persisting data across sessions (localStorage) or for the duration of a session (sessionStorage). This enables developers to store user preferences, settings, and other data without relying on cookies.
+
+- Canvas API:
+The Canvas API provides a way to dynamically draw graphics, shapes, and images directly within the browser using JavaScript. It offers a powerful tool for creating interactive visualizations, games, and multimedia applications.
+
+- Geolocation API:
+The Geolocation API allows JavaScript to retrieve the geographical location of a device (with the user's consent) and provide location-based services such as mapping, location-aware content, and location-based advertising.
+
+
+- WebRTC (Web Real-Time Communication) API:
+The WebRTC API facilitates real-time communication between web browsers, allowing for peer-to-peer audio, video, and data sharing without the need for plugins or additional software. It powers applications such as video conferencing, voice calling, and file sharing directly within the browser.

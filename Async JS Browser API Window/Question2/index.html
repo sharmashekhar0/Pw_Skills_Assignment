@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>XMLHttpRequest</title>
+	</head>
+	<style>
+		.center {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-color: #212121;
+			color: white;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		}
+		.btn {
+			height: 50px;
+			width: 200px;
+			font-size: 20px;
+			font-weight: bolder;
+			cursor: pointer;
+		}
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+	</style>
+	<body>
+		<div class="center">
+			<button class="btn">Get user names</button>
+			<ul class="name-collection"></ul>
+		</div>
+	</body>
+	<script>
+		const btnEl = document.querySelector(".btn");
+		const list = document.querySelector(".name-collection");
+
+		const xhr = new XMLHttpRequest();
+
+		const url = "https://jsonplaceholder.typicode.com/users";
+
+		xhr.open("GET", url, true);
+
+		xhr.onload = function () {
+			if (xhr.status >= 200 && xhr.status < 300) {
+				const users = JSON.parse(xhr.responseText);
+
+				console.log("List of user names");
+				users.forEach((user) => {
+					console.log(user.name);
+					list.innerHTML += `<li>${user.name}</li>`;
+				});
+			} else {
+				console.log("Error :: ", xhr.statusText);
+			}
+		};
+
+		xhr.onerror = function () {
+			console.error("Network error");
+		};
+
+		btnEl.addEventListener("click", function () {
+			xhr.send();
+		});
+	</script>
+</html>
